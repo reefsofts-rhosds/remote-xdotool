@@ -1,9 +1,19 @@
 # Remote XDoTool
 Ever wanted something overcomplicated to control your computer remotely? Remote XDoTool is here to help! It is basically an easy way to create an API, for XDoTool, with Python and Flask.
 ### Requirements
-- Python 3.5
+- Python 3.5 or more
 - Flask
 - Suprocess
+
+### Use the complete Flaskapp
+To use the complete Flaskapp, simply type
+'''
+python3 full.py
+'''
+in a terminal.
+
+Then, try cURLing http://computer.ip.adress.123:5000/key_ID, where computer.ip.adress.123 is the IP adress of the host and key_ID is the xdotool key ID. Here you go!
+
 ### Some examples of config
 In the repo, the presentation.py file is an example of how you might use this to remotely control a presentation (here it was created by me to control a lesson i gave with a pi and a Stream Deck)
 ### Make your own config
@@ -61,5 +71,12 @@ in a terminal.
 
 Then, try cURLing http://computer.ip.adress.123:5000/key_ID, where computer.ip.adress.123 is the IP adress of the host and key_ID is the xdotool key ID. Here you go!
 
-### Developper notes:
-try creating a full agfinal.py with ALL keys.
+### Use the complete Flaskapp
+To use the complete Flaskapp, simply type
+'''
+python3 full.py
+'''
+in a terminal.
+
+Then, try cURLing http://computer.ip.adress.123:5000/key_ID, where computer.ip.adress.123 is the IP adress of the host and key_ID is the xdotool key ID. Here you go!
+
