@@ -7,7 +7,7 @@ Ever wanted something overcomplicated to control your computer remotely? Remote 
 
 ### Use the complete Flaskapp
 To use the complete Flaskapp, simply type
-```
+```sh
  python3 full.py
 ```
 in a terminal.
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 ```
 ##### Run your Flask App and use it
 To run the program, simply type
-```
+```sh
 python3 file.py
 ```
 in a terminal, where file.py is your config file.
@@ -64,7 +64,7 @@ If you want to add anything, add a comma at 'Key("Down")' to indicate Python to 
 To add a Keypoint (keypress API endpoints), simply add 'Key("key_id"),' where key_id is the Key ID for standard xdotool. For a final element, do not forget to remove the comma. 
 ##### Run the Auto-generating Flask app and use it
 To run the auto-generating Flask app, simply type
-```
+```sh
 python3 agfinal.py
 ```
 in a terminal.
